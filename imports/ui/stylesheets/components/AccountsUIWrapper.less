@@ -1,0 +1,31 @@
+@import "../variables.less";
+
+#login-buttons {
+	padding: 10px 15px;
+	line-height: 30px;
+}
+
+#login-buttons a, .accounts-dialog a {
+    text-decoration: none;
+    color: #777;
+}
+
+#login-buttons a:hover, .accounts-dialog a:hover {
+	color: #333;
+}
+
+@media @mobileSmall, @mobileMedium, @mobileLarge {
+	
+	#login-dropdown-list {
+	    left: 11px;    
+	}
+	
+}
+
+@media @tablet, @laptop, @laptopLarge, @4k {
+	
+	#login-dropdown-list {
+	    left: -150px;
+	}
+	
+}

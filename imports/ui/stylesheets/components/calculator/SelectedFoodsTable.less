@@ -1,0 +1,54 @@
+@import "../../variables.less";
+
+@media @mobileSmall, @mobileMedium, @mobileLarge {
+	
+	.selected-foods-container {
+		overflow: scroll;
+	}
+	
+}
+
+.selected-foods-container.empty {
+	background: @primaryColor;
+	border: 1px solid @defaultBorderColor;
+	border-radius: 5px;
+	padding: 25px 0px;	
+}
+
+.selected-foods-container.empty div {
+	text-align: center; 
+}
+
+.selected-foods-container table input {
+	width: 40%;
+}
+
+.selected-foods-container table .unit {
+    position: relative;
+    top: 6px;
+    left: 5px;
+}
+
+.selected-foods-container table select {
+	width: 30%;
+}
+
+.selected-foods-container .remove {
+	font-size: @defaultButtonSize;
+    color: @redColor;
+    position: relative;
+}
+
+.selected-foods-container .remove:hover {
+	color: @redColorHover;
+	cursor: pointer;
+}
+
+.selected-foods-container a {
+	cursor: pointer;
+}
+
+.selected-foods-container .toggle-details {
+	font-size: 24px;
+	text-decoration: none;
+}

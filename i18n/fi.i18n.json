@@ -1,0 +1,195 @@
+{
+	"common": {
+		"save-successful": "Tiedot tallennettiin onnistuneesti!",
+		"errors": {
+			"save-failed": "Tallennus epäonnistui!",
+			"validation": "Tarkasta antamasi tiedot.",
+			"unexpected": "Tapahtui odottamaton virhe.",
+			"stringExpected": "Syötä jokin merkkijono.",
+			"numberExpected": "Anna jokin lukuarvo (0 tai suurempi).",
+			"optional": "Lisää arvo tai poista kenttä."
+		},
+		"buttons": {
+			"save": "Tallenna"
+		},
+		"links": {
+			"showMore": "Näytä enemmän",
+			"showLess": "Näytä vähemmän"
+		},
+		"fats": "Rasvat",
+		"protein": "Proteiinit",
+		"carbs": "Hiilihydraatit",
+		"energy": "Energia",
+		"salt": "Suolat",
+		"addNewFood": "Lisää uusi ruoka"
+	},
+	"components": {
+		"navbar": {
+			"brand": "KCALCULATOR",
+			"calculator": "Kalorilaskuri",
+			"diary": "Ruokapäiväkirja",
+			"weightwatch": "Painon tarkkailu" 
+		},
+		"languageToggle": {
+			"choose-lang": "Kieli"
+		},
+		"search": {
+			"placeholder": "Etsi...",
+			"buttonTitle": "Etsi"
+		},
+		"notFound": {
+			"message": "Yhtään hakutulosta ei löytynyt."
+		},
+		"userNotFound": {
+			"foodDiaryMessage": "Kirjaudu sisään, jotta voit luoda ruokapäiväkirjoja.",
+			"weightWatchMessage": "Kirjaudu sisään, jotta voit tallentaa painotietoja."
+		},
+		"searchResult": {
+			"showMore": "Näytä tarkemmat tiedot",
+			"editLink": "Muokkaa tietoja"
+		},
+		"selectedFoodsTable": {
+			"emptyMessage": "Aloita etsimällä ruoka-aineita ja lisäämällä niitä taulukkoon.",
+			"header": {
+				"food": "Ruoka",
+				"quantity": "Määrä",
+				"fat": "Rasva",
+				"protein": "Proteiini",
+				"carbs": "Hiilihydraatit",
+				"energy": "Energia"
+			},
+			"sum": "Yht.",
+			"energy": {
+				"header": "Energia"
+			},
+			"fats": {
+				"header": "Rasvat",
+				"saturated": "Tyydyttyneet",
+				"monounsaturated": "Kertatyydyttämättömät",
+				"polyunsaturated": "Monityydyttämättömät"
+			},
+			"carbs": {
+				"header": "Hiilihydraatit",
+				"sugar": "Sokerit",
+				"polyol": "Polyolit",
+				"starch": "Tärkkelys"
+			},
+			"fibre": "Ravintokuitu",
+			"protein": "Proteiini",
+			"salt": "Suola",
+			"vitamins": "Vitamiinit ja kivennäisaineet",
+			"lactose": "Laktoosi",
+			"contains": "Sisältää"
+		}
+	},	
+	"pages": {
+		"calculator": {},
+		"addFood": {
+			"info": "Tiedot",
+			"title": {
+				"label": "Nimi",
+				"placeholder": "Esim. Rasvaton maito"
+				},
+			"brand": {
+				"label": "Tuotemerkki",
+				"placeholder": "Esim. Valio"
+				},
+			"unit": "Yksikkö",
+			"energy": {
+				"header": "Energia",
+				"kJ": "Energia (kJ)",
+				"kcal": "Energia (kcal)"
+			},
+			"fats": {
+				"header": "Rasvat",
+				"sum": "Rasvat (yht.)",
+				"saturated": "Tyydyttyneet rasvat",
+				"monounsaturated": "Kertatyydyttämättömät rasvat",
+				"polyunsaturated": "Monityydyttämättömät rasvat"
+			},
+			"carbs": {
+				"header": "Hiilihydraatit",
+				"sum": "Hiilihydraatit (yht.)",
+				"sugar": "Sokerit",
+				"polyol": "Polyoli",
+				"starch": "Tärkkelys"
+			},			
+			"protein": "Proteiini",
+			"fibre": "Ravintokuitu",
+			"salt": "Suola",
+			"lactose": "Laktoosi",
+			"vitamins": {
+				"header": "Vitamiinit ja kivennäisaineet",
+				"name": "Nimi",
+				"unit": "Yksikkö",
+				"quantity": "Määrä"
+			}, 
+			"categories": "Kategoriat",
+			"tags": "Tagit"
+		},
+		"foodDiary": {
+			"confirm": {
+				"title": "Oletko varma?",
+				"text": "Oletko varma, että haluat poistaa aterian",
+				"confirmButtonText": "OK",
+				"cancelButtonText": "Peruuta"
+			},
+			"errors": {
+				"name": "Anna aterialle jokin nimi.",
+				"quantity": "Tarkasta tuotteiden määrät. Jokaiselle tuotteelle on annettava määräksi vähintään nolla (0)."
+			}
+		},
+		"weightWatch": {
+			"weight": "Aamupaino: ",  
+			"headers": {
+				"weightChanges": "Painon muutos koko ajalta" 
+			},
+			"chart": {
+				"xAxisLabel": "Paino (kg)",
+				"yAxisLabel": "Aika",
+				"series": "Paino"
+			}
+		}
+	},
+	"helpers": {
+		"categories": {
+			"NOT_SELECTED": "-- Valitse kategoria --",
+			"MISCELLANEOUS": "Sekalaiset",
+			"ROOTS": "Juurekset",
+			"POTATOES": "Perunat",
+			"FRUITS": "Hedelmät",
+			"VEGETABLES": "Vihannekset",
+			"BERRIES": "Marjat",
+			"MUSHROOMS": "Ruokasienet",
+			"CHICKEN": "Kana ja kanaruoat",
+			"FISH": "Kalat ja kalastustuotteet, kalaruoat",
+			"CRAYFISH": "Ravut",
+			"MEAT": "Liha ja lihavalmisteet, liharuoat",
+			"SAUSAGES": "Makkarat",		
+			"MILK": "Maito ja maitovalmisteet",
+			"CHEESE": "Juustot",
+			"ICE_CREAM": "Jäätelöt",
+			"WATERS": "Pakatut vedet",
+			"TABLE_SPREADS": "Levitettävät rasvat",
+			"OLIVE_OIL": "Oliiviöljy",
+			"JELLY": "Hillot, hyytelö ja marmeladi",
+			"JUICE": "Mehut, täysmehut ja nektarit",		
+			"SUGAR": "Sokeri",		
+			"HONEY": "Hunaja",
+			"CANDY": "Makeiset",
+			"COFFEE_EXTRACTS": "Kahviuutteet ja sikuriuutteet",
+			"COFFEE": "Kahvi ja kahvijuomat",
+			"TEA": "Tee",
+			"CHOCOLATE": "Suklaa, kaakao",
+			"SUPPLEMENTS": "Ravintolisät",
+			"ALCOHOL": "Alkoholi",
+			"LOW_LACTOSE": "Vähälaktoosinen",
+			"LACTOSE_FREE": "Laktoositon",
+			"GLUTEN_FREE": "Gluteeniton",
+			"LOW_GLUTEN": "Vähägluteeninen",
+			"SPORT_PRODUCTS": "Urheiluvalmisteet",
+			"INSECTS": "Hyönteiset",
+			"ENERGY_DRINKS": "Energiajuomat"
+		}
+	}
+}

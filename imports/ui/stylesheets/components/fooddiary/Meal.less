@@ -1,0 +1,64 @@
+@import "../../variables.less";
+
+.meal-container {
+	border-top: 1px solid @defaultBorderColor;
+	padding: 15px 0px;
+	position: relative;
+}
+
+.meal-container input[name=name],
+.meal-container h3[name=name] {
+	display: inline-block;
+}
+
+.meal-container input[name=name] {
+	width: 50%;
+    margin-top: 22px;
+    margin-right: 10px;
+}
+
+.meal-container .alert {
+	width: 50%;
+}
+
+.meal-container .cancel,
+.meal-container .edit {
+	font-size: @defaultButtonSizeSmall;
+	position: relative;
+	left: 10px;
+}
+
+.meal-container .edit {
+	top: 1px;
+}
+
+.meal-container .cancel {
+	top: 3px;
+}
+
+@media @mobileSmall {
+	
+	.meal-container .cancel {
+		top: 3px;
+		left: 2px;
+	}
+	
+}
+
+.meal-container .cancel:hover,
+.meal-container .edit:hover {
+	cursor: pointer;
+}
+
+.meal-container .remove-meal{
+	font-size: @defaultButtonSize;
+	position: absolute;
+    right: 0;
+    top: 29px;
+    color: @redColor;
+}
+
+.meal-container .remove-meal:hover {
+	color: @redColorHover;
+	cursor: pointer;
+}

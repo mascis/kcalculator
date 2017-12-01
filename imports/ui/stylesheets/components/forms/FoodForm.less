@@ -1,0 +1,80 @@
+@import "../../variables.less";
+
+#foodFormContainer {	
+    width: 20%;
+}
+
+@media @laptop {
+	
+	#foodFormContainer {	
+	    width: 30%;
+	}
+	
+}
+
+@media @tablet {
+	
+	#foodFormContainer {	
+	    width: 40%;
+	}
+	
+}
+
+@media @mobileSmall, @mobileMedium, @mobileLarge {
+	
+	#foodFormContainer {	
+	    width: 90%;
+	}
+	
+}
+
+#foodFormContainer legend {
+	margin-bottom: 10px;
+}
+
+#foodFormContainer .form-group {
+	margin-bottom: 15px;
+    padding-bottom: 30px;
+}
+
+#foodFormContainer .form-group > div {
+	margin-top: 15px;
+}
+
+#foodFormContainer .optional-field {
+	position: relative;
+}
+
+#foodFormContainer .optional-field input, 
+#foodFormContainer .optional-field textarea,
+#foodFormContainer .optional-field select {
+	width: 80%;
+}
+ 
+#foodFormContainer .optional-field select {
+	margin-bottom: 10px;	
+}
+
+#foodFormContainer .add {
+	font-size: @defaultButtonSize;
+	color: @greenColor;
+	margin-top: 5px;
+} 
+
+#foodFormContainer .add:hover {
+	cursor: pointer;
+	color: @greenColorHover;
+}
+
+#foodFormContainer .remove {
+	font-size: @defaultButtonSize;
+	position: absolute;
+    right: 0;
+    top: -2px;
+    color: @redColor;
+}
+
+#foodFormContainer .remove:hover {
+	color: @redColorHover;
+	cursor: pointer;
+}

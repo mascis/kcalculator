@@ -1,0 +1,195 @@
+{	
+	"common": {
+		"save-successful": "Data saved successfully!",
+		"errors": {
+			"save-failed": "Save failed!",
+			"validation": "Please check the entered values.",
+			"unexpected": "Unexpected error occurred.",
+			"stringExpected": "Please enter text.",
+			"numberExpected": "Please enter a number (0 or greater).",
+			"optional": "Enter a value or remove field."
+		},
+		"buttons": {
+			"save": "Save"
+		},
+		"links": {
+			"showMore": "Show more",
+			"showLess": "Show less"
+		},
+		"fats": "Fats",
+		"protein": "Proteins",
+		"carbs": "Carbohydrates",
+		"energy": "Energy",
+		"salt": "Salt",
+		"addNewFood": "Add new food"
+	},
+	"components": {
+		"navbar": {
+			"brand": "KCALCULATOR",
+			"calculator": "Calculator",
+			"diary": "Food diary",
+			"weightwatch": "Weight watch" 
+		},
+		"languageToggle": {
+			"choose-lang": "Language"
+		},
+		"search": {
+			"placeholder": "Search...",
+			"buttonTitle": "Search"
+		},
+		"notFound": {
+			"message": "No search results."
+		},
+		"userNotFound": {
+			"foodDiaryMessage": "Login to create food diaries.",
+			"weightWatchMessage": "Login to save weight data."
+		},
+		"searchResult": {
+			"showMore": "Show details",
+			"editLink": "Edit food"
+		},
+		"selectedFoodsTable": {
+			"emptyMessage": "Start by finding foods and selecting them.",
+			"header": {
+				"food": "Food",
+				"quantity": "Quantity",
+				"fat": "Fat",
+				"protein": "Protein",
+				"carbs": "Carbs",
+				"energy": "Energy"
+			},			
+			"sum": "Sum",
+			"energy": {
+				"header": "Energy"
+			},
+			"fats": {
+				"header": "Fats",
+				"saturated": "Saturated",
+				"monounsaturated": "Monounsaturated",
+				"polyunsaturated": "Polyunsaturated"
+			},
+			"carbs": {
+				"header": "Carbs",
+				"sugar": "Sugars",
+				"polyol": "Polyols",
+				"starch": "Starch"
+			},
+			"fibre": "Fibre",
+			"protein": "Protein",
+			"salt": "Salt",
+			"vitamins": "Vitamins and minerals",
+			"lactose": "Lactose",
+			"contains": "Contains"
+		}
+	},	
+	"pages": {
+		"calculator": {},
+		"addFood": {
+			"info": "Info",
+			"title": {
+				"label": "Name",
+				"placeholder": "e.g. Skim milk"
+				},
+			"brand": {
+				"label": "Brand",
+				"placeholder": "e.g. Valio"
+				},
+			"unit": "Unit",
+			"energy": {
+				"header": "Energy",
+				"kJ": "Energy (kJ)",
+				"kcal": "Energy (kcal)"
+			},
+			"fats": {
+				"header": "Fats",
+				"sum": "Fats (sum)",
+				"saturated": "Saturated fats",
+				"monounsaturated": "Monounsaturated fats",
+				"polyunsaturated": "Polyunsaturated fats"
+			},
+			"carbs": {
+				"header": "Carbohydrates",
+				"sum": "Carbohydrates (sum)",
+				"sugar": "Sugars",
+				"polyol": "Polyol",
+				"starch": "Starch"
+			},			
+			"protein": "Protein",
+			"fibre": "Fibre",
+			"salt": "Salt",
+			"lactose": "Lactose",
+			"vitamins": {
+				"header": "Vitamins ja minerals",
+				"name": "Name",
+				"unit": "Unit",
+				"quantity": "Quantity"
+			}, 
+			"categories": "Categories",
+			"tags": "Tags"
+		},
+		"foodDiary": {
+			"confirm": {
+				"title": "Are you sure?",
+				"text": "Are you sure that you want to remove the meal",
+				"confirmButtonText": "OK",
+				"cancelButtonText": "Cancel"
+			},
+			"errors": {
+				"name": "Give meal a name.",
+				"quantity": "Check quantity values of the products. Quantity of at least zero (0) should be given for each product."
+			}
+		},
+		"weightWatch": {
+			"weight": "Morning weight: ", 
+			"headers": {
+				"weightChanges": "Weight changes over time" 
+			},
+			"chart": {
+				"xAxisLabel": "Weight (kg)",
+				"yAxisLabel": "Time",
+				"series": "Weight"
+			}
+		}
+	},	
+	"helpers": {
+		"categories": {
+			"NOT_SELECTED": "-- Choose category --",
+			"MISCELLANEOUS": "Miscellaneous",
+			"ROOTS": "Roots",
+			"POTATOES": "Potatoes",
+			"FRUITS": "Fruits",
+			"VEGETABLES": "Vegetables",
+			"BERRIES": "Berries",
+			"MUSHROOMS": "Mushrooms",
+			"CHICKEN": "Chicken and chicken dishes",
+			"FISH": "Fish and fishing products, fish dishes",
+			"CRAYFISH": "Crayfish",
+			"MEAT": "Meat and meat products, meat dishes",
+			"SAUSAGES": "Sausages",		
+			"MILK": "Milk and milk products",
+			"CHEESE": "Cheese",
+			"ICE_CREAM": "Ice cream",
+			"WATERS": "Bottled waters",
+			"TABLE_SPREADS": "Table spreads",
+			"OLIVE_OIL": "Olive oil",
+			"JELLY": "Jam, jelly and marmalade",
+			"JUICE": "Juice, nectars",		
+			"SUGAR": "Sugar",		
+			"HONEY": "Honey",
+			"CANDY": "Candy",
+			"COFFEE_EXTRACTS": "Coffee and chicory extracts",
+			"COFFEE": "Coffee and coffee drinks",
+			"TEA": "Tea",
+			"CHOCOLATE": "Chocolate, cocoa",
+			"SUPPLEMENTS": "Food supplements",
+			"ALCOHOL": "Alcohol",
+			"LOW_LACTOSE": "Low lactose",
+			"LACTOSE_FREE": "Lactose free",
+			"GLUTEN_FREE": "Gluten free",
+			"LOW_GLUTEN": "Low gluten",
+			"SPORT_PRODUCTS": "Sport products",
+			"INSECTS": "Insects",
+			"ENERGY_DRINKS": "Energy drinks"
+		}
+	}
+}

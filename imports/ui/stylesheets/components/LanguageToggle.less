@@ -1,0 +1,58 @@
+@import "../variables.less";
+
+.language-toggle-li {
+	min-width: 74px;
+}
+
+.language-toggle {
+    padding: 10px 15px;
+    line-height: 30px;
+}
+
+.language-toggle:hover {
+	cursor: pointer;
+}
+
+.language-toggle.active {
+	color: @secondaryFontColor;
+    background-color: @secondaryColor;
+}
+
+.language-toggle a, .language-toggle span,
+.language-toggle-list a, .language-toggle-list span {
+	text-decoration: none;
+    color: #777;
+}
+
+.language-toggle span.fa {
+    font-size: 10px;
+    position: relative;
+    bottom: 1px;
+    margin-left: 5px;
+}
+
+.language-toggle-list {
+    position: absolute;
+    top: 51px;
+    width: 74px;
+    background: @secondaryColor;
+    z-index: 1;
+}
+
+.language-toggle-list a, .language-toggle-list span {
+	display: block;
+	padding: 5px;
+}
+  
+.language-toggle-list .active,
+.language-toggle-list a:hover {
+	background: @primaryColor;
+	margin: 2px;
+}  
+
+@media @mobileSmall, @mobileMedium, @mobileLarge {
+	
+	.language-toggle-list {
+	    width: 100%;
+	}
+}
