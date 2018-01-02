@@ -125,15 +125,25 @@ export default class SecondaryRow extends BaseComponent {
                         
                         { this.state.showLactose ? <dd>{i18n.getTranslation("components.selectedFoodsTable.lactose")}</dd> : ''}
                        
+                        
                         {
+                            
+                            food.nutritional_values.vitamins != null
+                            
+                            ?                                
                             
                             food.nutritional_values.vitamins.map( (vitamin, i) => (
                                     
-                                <dd key={"sr"+i}>{vitamin.name}</dd>
-                                    
-                            ))
+                                    <dd key={"sr"+i}>{vitamin.name}</dd>
+                                        
+                                ))
+                                
+                            :
+                                
+                            ""
                             
                         }
+                        
                         </dl>
                     </td>
                     <td colSpan="3">
@@ -163,12 +173,19 @@ export default class SecondaryRow extends BaseComponent {
                             
                             {
                                 
+                                food.nutritional_values.vitamins != null
+                                
+                                ?  
+                                
                                 food.nutritional_values.vitamins.map( (vitamin, i) => (
                                         
                                     <dd key={"sr"+i}>{Utils.round(vitamin.quantity * (food.quantity/100), DECIMALS)}{vitamin.unit == "ug" ? <span>&mu;</span> : "mg"}</dd>
                                         
                                 ))
                                 
+                                :
+                                    
+                                ""
                             }
                         </dl>
                     </td>

@@ -208,25 +208,29 @@ export default class SelectedFoodsTable extends BaseComponent {
         
         selectedFoods.map( (food, i) => {
            
-            let vitamins = food.nutritional_values.vitamins;
-            
-            vitamins.forEach( ( vitamin ) => {
+            if ( food.nutritional_values.vitamins != null ) {
                 
-                const current = selectedFoods[i];
-                const result = _.findWhere(sumVitamins, {name: vitamin.name});
+                let vitamins = food.nutritional_values.vitamins;
                 
-                if ( result ) {
+                vitamins.forEach( ( vitamin ) => {
                     
-                    const index = _.indexOf(sumVitamins, result);                    
-                    sumVitamins[index].quantity += vitamin.quantity * (current.quantity/100); 
+                    const current = selectedFoods[i];
+                    const result = _.findWhere(sumVitamins, {name: vitamin.name});
                     
-                } else {
+                    if ( result ) {
+                        
+                        const index = _.indexOf(sumVitamins, result);                    
+                        sumVitamins[index].quantity += vitamin.quantity * (current.quantity/100); 
+                        
+                    } else {
+                        
+                        vitamin.quantity = vitamin.quantity * (current.quantity/100);
+                        sumVitamins.push(vitamin);
+                    }
                     
-                    vitamin.quantity = vitamin.quantity * (current.quantity/100);
-                    sumVitamins.push(vitamin);
-                }
+                });
                 
-            });
+            }
             
         });
         
@@ -246,24 +250,29 @@ export default class SelectedFoodsTable extends BaseComponent {
         this.props.selectedFoods.forEach( (food, i ) => {
             
             const current = meals[this.props.index].foods[i];
-            const vitamins = current.nutritional_values.vitamins;
             
-            vitamins.forEach( ( vitamin ) => {
+            if ( current.nutritional_values.vitamins != null ) {
                 
-                const result = _.findWhere(sumVitamins, {name: vitamin.name});
+                const vitamins = current.nutritional_values.vitamins;
                 
-                if ( result ) {
+                vitamins.forEach( ( vitamin ) => {
                     
-                    const index = _.indexOf(sumVitamins, result);                    
-                    sumVitamins[index].quantity += vitamin.quantity * (current.quantity/100); 
+                    const result = _.findWhere(sumVitamins, {name: vitamin.name});
                     
-                } else {
+                    if ( result ) {
+                        
+                        const index = _.indexOf(sumVitamins, result);                    
+                        sumVitamins[index].quantity += vitamin.quantity * (current.quantity/100); 
+                        
+                    } else {
+                        
+                        vitamin.quantity = vitamin.quantity * (current.quantity/100);
+                        sumVitamins.push(vitamin);
+                    }
                     
-                    vitamin.quantity = vitamin.quantity * (current.quantity/100);
-                    sumVitamins.push(vitamin);
-                }
+                });
                 
-            });
+            }    
             
         });
         
