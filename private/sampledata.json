@@ -1,0 +1,237 @@
+[
+	{
+		"title": "Rasvaton maito",
+		"brand": "Valio",
+		"categories": [12],
+		"tags": ["rasvaton", "maito", "valio"],
+		"unit": "g",
+		"kcal": 33,
+		"kJ": 140,
+		"sumFats": 0,
+		"saturated": 0,
+		"monounsaturated": 0,
+		"polyunsaturated": 0,
+		"sumCarbs": 4.9,
+		"sugar": 4.9,				
+		"fibre": 0,
+		"protein": 3.3,
+		"salt": 0.1,
+		"vitamins": [
+			{
+				"name": "D-vitamiini",
+				"unit": "ug",
+				"quantity": 1
+			},
+			{
+				"name": "Riboflaviini",
+				"unit": "mg",
+				"quantity": 0.2
+			},
+			{
+				"name": "B12-vitamiini",
+				"unit": "ug",
+				"quantity": 0.4
+			},
+			{
+				"name": "Kalsium",
+				"unit": "mg",
+				"quantity": 120
+			},
+			{
+				"name": "Jodi",
+				"unit": "ug",
+				"quantity": 16
+			}
+		],
+		"lactose": 4.9	
+	},
+	{
+		"title": "Puikula, täysjyväruis",
+		"brand": "Fazer",
+		"categories": [30],
+		"tags": ["laktoositon", "ruisleipä", "täysjyvä"],
+		"unit": "g",
+		"kcal": 246,
+		"kJ": 1039,
+		"sumFats": 1.7,
+		"saturated": 0.2,
+		"sumCarbs": 41,
+		"sugar": 3.7,				
+		"fibre": 10,
+		"protein": 12,
+		"salt": 1.1,
+		"lactose": 4.9	
+	},
+	{
+		"title": "Kalkkunaleike, ohuen ohut",
+		"brand": "Atria",
+		"categories": [10, 30, 31],
+		"tags": ["laktoositon", "gluteeniton", "runsaasti proteiinia"],
+		"unit": "g",
+		"kcal": 96,
+		"kJ": 402,
+		"sumFats": 3.2,
+		"saturated": 0.7,
+		"sumCarbs": 2,
+		"sugar": 0.2,				
+		"fibre": 0.1,
+		"protein": 15,
+		"salt": 1.9,			
+		"lactose": 0	
+	},
+	{
+		"title": "PROfeel, proteiinirahka, mansikka",
+		"brand": "Valio",
+		"categories": [30],
+		"tags": ["laktoositon", "proteiini", "rahka"],
+		"unit": "g",
+		"kcal": 80,
+		"kJ": 350,
+		"sumFats": 0.2,
+		"saturated": 0.1,
+		"sumCarbs": 9.6,
+		"sugar": 9.6,				
+		"protein": 11,
+		"salt": 0.1,
+		"vitamins": [
+			{
+				"name": "Kalsium",
+				"unit": "mg",
+				"quantity": 100
+			}
+		],
+		"lactose": 0
+	},
+	{
+		"title": "Oltermanni, kevyempi 17%",
+		"brand": "Valio",
+		"categories": [13, 30],
+		"tags": ["laktoositon", "runsaasti proteiinia", "kevyt", "juusto"],
+		"unit": "g",
+		"kcal": 270,
+		"kJ": 1100,
+		"sumFats": 17,
+		"saturated": 9.4,
+		"monounsaturated": 3.3,
+		"polyunsaturated": 0.3,
+		"sumCarbs": 0,
+		"sugar": 0,				
+		"protein": 29,
+		"salt": 1.3,
+		"vitamins": [
+			{
+				"name": "Riboflaviini",
+				"unit": "mg",
+				"quantity": 0.27
+			},
+			{
+				"name":"B12-vitamiini",
+				"unit": "ug",
+				"quantity": 0.75
+			},
+			{
+				"name":"Kalsium",
+				"unit": "mg",
+				"quantity": 910
+			},
+			{
+				"name":"Fosfori",
+				"unit": "mg",
+				"quantity": 560
+			},
+			{
+				"name":"Sinkki",
+				"unit": "mg",
+				"quantity": 4.1
+			}
+		],
+		"lactose": 0
+	},
+	{
+		"title": "Kaurahiutale, täysjyvä",
+		"brand": "Elovena",
+		"tags": ["kaurapuuro", "runsaskuituinen"],
+		"unit": "g",
+		"kcal": 370,
+		"kJ": 1550,
+		"sumFats": 8,
+		"saturated": 1.6,
+		"sumCarbs": 55,
+		"sugar": 1.2,
+		"fibre": 11,				
+		"protein": 14,
+		"salt": 0,
+		"vitamins": [
+			{
+				"name": "B1-vitamiini(tiamiini)",
+				"unit": "mg",
+				"quantity": 0.4
+			},
+			{
+				"name": "Magnesium",
+				"unit": "mg",
+				"quantity": 131
+			},
+			{
+				"name": "Rauta",
+				"unit": "mg",
+				"quantity": 5.1
+			},
+			{
+				"name": "Sinkki",
+				"unit": "mg",
+				"quantity": 3.2
+			}
+		]
+	},
+	{
+		"title": "Perhetilan fileesuikale, kana, naturel",
+		"brand": "Atria",
+		"categories": [7],
+		"tags": ["runsaasti proteiinia"],
+		"unit": "g",
+		"kcal": 110,
+		"kJ": 465,
+		"sumFats": 2.1,
+		"saturated": 0.5,
+		"sumCarbs": 0,
+		"sugar": 0,
+		"fibre": 0,				
+		"protein": 23,
+		"salt": 0.1
+	},
+	{
+		"title": "Kasvirasvalevite 70%",
+		"brand": "Keiju",
+		"categories": [16],
+		"tags": ["laktoositon", "Omega-3", "Omega-6"],
+		"unit": "g",
+		"kcal": 630,
+		"kJ": 2590,
+		"sumFats": 70,
+		"saturated": 21,
+		"monounsaturated": 33,
+		"polyunsaturated": 16,
+		"sumCarbs": 0,
+		"sugar": 0,				
+		"protein": 0,
+		"salt": 0.7,
+		"vitamins": [
+			{
+				"name": "E-vitamiini",
+				"unit": "mg",
+				"quantity": 9
+			},
+			{
+				"name": "A-vitamiini",
+				"unit": "ug",
+				"quantity": 800
+			},
+			{
+				"name": "D-vitamiini",
+				"unit": "ug",
+				"quantity": 20
+			}
+		]
+	}
+]
